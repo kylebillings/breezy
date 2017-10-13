@@ -1,0 +1,10 @@
+@import 'src/components/global/colors';
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: $gray2;
+  height: 90vh;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}

@@ -1,0 +1,27 @@
+@import 'src/components/global/colors';
+
+/* menu title */
+.coffee,
+.tea {
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  height: 16vh;
+  padding: 0 2rem;
+  border-bottom: 1px solid $gray1;
+  text-transform: uppercase;
+  letter-spacing: 0.075rem;
+}
+
+.coffee {
+  background-color: $gray2;
+  color: $gray1;
+}
+
+.tea {
+  background-color: $gray1;
+}
+
+.image {
+  margin-right: 1rem;
+}
